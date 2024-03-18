@@ -1,0 +1,23 @@
+Route::get('/about', function () {
+    return view('about');
+});
+
+Route::get('/blog', function () {
+    return view('blog');
+});
+
+Route::get('/client', function () {
+    return view('client');
+});
+
+Route::get('/contact', function () {
+    return view('contact');
+});
+
+Route::get('/main', function () {
+    return view('welcome');
+});
+
+Route::get('/services', function () {
+    return view('services');
+});
